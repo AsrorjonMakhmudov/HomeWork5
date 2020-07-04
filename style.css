@@ -1,0 +1,80 @@
+body{
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+button{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: 10px 0;
+}
+
+.heart{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-right: 100px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 600px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 600px;
+    
+    
+}
+
+.myDiv{
+    width: 50%;
+    height: 40px;
+    background-color: #909090;
+    margin: 10px 0;
+    display: none;
+}
+
+.myButton{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(68, 70, 70, 0.667);
+    margin: 10px 0;
+}
+ 
+
+.div2{
+    width: 20%;
+    height: 50px;
+    background-color: violet;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.myToggle{
+    display: block;
+    transition: toggle .1s ease;
+}
+
+ 
+ 
